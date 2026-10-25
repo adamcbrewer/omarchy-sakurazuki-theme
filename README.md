@@ -1,6 +1,6 @@
 # Sakurazuki
 
-A dark Omarchy theme with plum backgrounds, muted rose accents, and moonlit blue highlights. The palette comes from [Sakurazuki by ahmed-z0](https://github.com/ahmed-z0/omarchy-sakurazuki-theme), packaged here as a fresh `colors.toml` theme.
+A dark Omarchy theme with midnight plum backgrounds, sakura rose accents, blossom pink highlights, and moonlight lavender. The palette and wallpapers come from [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki), packaged here as a standalone `colors.toml` theme.
 
 ![Sakura wallpaper](backgrounds/sakura.png)
 
@@ -33,17 +33,17 @@ There are no installer scripts or package dependencies, following the [minimal d
 | Role | Colour |
 | --- | --- |
 | Background | `#14111A` |
-| Foreground | `#D8D0DC` |
-| Accent | `#A87692` |
-| Muted text | `#6B5E72` |
-| Selection | `#2A2432` |
-| Rose | `#8D5F74` |
-| Slate | `#6F7B8F` |
-| Lavender | `#9A84A2` |
-| Mauve | `#947598` |
-| Moonlit blue | `#7E95C1` |
+| Secondary background | `#211925` |
+| Surface / selection | `#2A1B2A` |
+| Sakura rose | `#A87692` |
+| Blossom pink | `#D9A6C4` |
+| Moonlight lavender | `#C2AEDF` |
+| Primary text | `#F0DCEB` |
+| Secondary text | `#B8A3BB` |
+| Muted text | `#88758F` |
+| Border | `#443043` |
 
-The original palette supplies the base and bright colours. Darker surface shades are derived from the plum background. Selection uses a plum surface so selected text stays readable with Omarchy's generated foreground.
+These are the desktop tokens documented in [Michal's customization guide](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/docs/customization.md). Blossom pink and moonlight lavender map to bright magenta and bright blue. Other terminal accents come from the terminal palette bundled in that same repository. The two darkest background shades are derived from the plum base; the border gradient matches Michal's Hyprland look and feel.
 
 ## Wallpapers
 
@@ -54,8 +54,8 @@ Both are copied unchanged from [Michal-Nithesh/Sakurazuki](https://github.com/Mi
 
 ## Credits and licence
 
-Palette inspiration: [ahmed-z0/omarchy-sakurazuki-theme](https://github.com/ahmed-z0/omarchy-sakurazuki-theme). Wallpapers: [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki).
+Palette and wallpapers: [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki).
 
-The new theme definition and documentation are [MIT licensed](LICENSE). The wallpaper source's MIT notice is retained separately in [LICENSES](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
+The new theme definition and documentation are [MIT licensed](LICENSE). The source's MIT notice is retained separately in [LICENSES](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
 
 Theme format: [Omarchy theming documentation](https://github.com/omacom/omarchy/blob/quattro/docs/theming.md).

@@ -2,7 +2,13 @@
 
 ## Palette
 
-The colours are based on [Sakurazuki by ahmed-z0](https://github.com/ahmed-z0/omarchy-sakurazuki-theme/tree/488946b79e6ba9a0f93c84c8c9bfacd0add6f395), especially its terminal palette. This repo contains a fresh Omarchy theme definition, with additional surface shades and a plum selection background. It does not copy the original app configuration files.
+The palette comes from [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki/tree/90ca56ec0afb921ea1559a80979c8657f6bae514), revision `90ca56ec0afb921ea1559a80979c8657f6bae514`:
+
+- Desktop colours: [docs/customization.md](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/docs/customization.md).
+- Remaining terminal accents: [config/omarchy/themes/sakurazuki/alacritty.toml](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/config/omarchy/themes/sakurazuki/alacritty.toml).
+- Border colours and gradient: [config/hypr/looknfeel.lua](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/config/hypr/looknfeel.lua).
+
+This repo maps those colours into Omarchy's semantic palette. Blossom pink maps to bright magenta, moonlight lavender to bright blue, and the surface colour to selection. The two darkest background shades are derived from the plum base. No desktop plugins or personal configuration are included. The source's MIT notice is retained in [LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
 
 ## Wallpapers
 
