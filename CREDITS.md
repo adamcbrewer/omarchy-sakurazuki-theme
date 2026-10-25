@@ -2,13 +2,13 @@
 
 ## Palette
 
-The palette comes from [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki/tree/90ca56ec0afb921ea1559a80979c8657f6bae514), revision `90ca56ec0afb921ea1559a80979c8657f6bae514`:
+The colours come from [davidguttman/archwave](https://github.com/davidguttman/archwave/tree/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c), revision `b3e6b814989dc5dd58b25bc4c73667b4827bcb4c`:
 
-- Desktop colours: [docs/customization.md](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/docs/customization.md).
-- Remaining terminal accents: [config/omarchy/themes/sakurazuki/alacritty.toml](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/config/omarchy/themes/sakurazuki/alacritty.toml).
-- Border colours and gradient: [config/hypr/looknfeel.lua](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/config/hypr/looknfeel.lua).
+- Base, foreground, normal and bright terminal colours: [alacritty.toml](https://github.com/davidguttman/archwave/blob/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c/alacritty.toml).
+- Surface, secondary text, and orange: [neovim.lua](https://github.com/davidguttman/archwave/blob/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c/neovim.lua).
+- Solid pink active border: [hyprland.conf](https://github.com/davidguttman/archwave/blob/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c/hyprland.conf).
 
-This repo maps those colours into Omarchy's semantic palette. Blossom pink maps to bright magenta, moonlight lavender to bright blue, and the surface colour to selection. The two darkest background shades are derived from the plum base. No desktop plugins or personal configuration are included. The source's MIT notice is retained in [LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
+This repo contains a fresh Omarchy semantic theme definition using those colour values. Selection uses Archwave's raised purple surface; inactive borders use its muted purple. Omarchy generates its standard terminal slots and cursor from the semantic palette. No Archwave app configuration files, plugins, or wallpapers are included.
 
 ## Wallpapers
 

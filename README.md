@@ -1,6 +1,6 @@
 # Sakurazuki
 
-A dark Omarchy theme with midnight plum backgrounds, sakura rose accents, blossom pink highlights, and moonlight lavender. The palette and wallpapers come from [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki), packaged here as a standalone `colors.toml` theme.
+A dark Omarchy theme combining the deep purple, pink, cyan, and pastel colours of [Archwave by David Guttman](https://github.com/davidguttman/archwave) with wallpapers from [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki).
 
 ![Sakura wallpaper](backgrounds/sakura.png)
 
@@ -32,18 +32,18 @@ There are no installer scripts or package dependencies, following the [minimal d
 
 | Role | Colour |
 | --- | --- |
-| Background | `#14111A` |
-| Secondary background | `#211925` |
-| Surface / selection | `#2A1B2A` |
-| Sakura rose | `#A87692` |
-| Blossom pink | `#D9A6C4` |
-| Moonlight lavender | `#C2AEDF` |
-| Primary text | `#F0DCEB` |
-| Secondary text | `#B8A3BB` |
-| Muted text | `#88758F` |
-| Border | `#443043` |
+| Background | `#1a0d2e` |
+| Surface / selection | `#2d1b4e` |
+| Foreground | `#d4a5ff` |
+| Bright foreground | `#fef6ff` |
+| Muted text / inactive border | `#543a6e` |
+| Pink accent / active border | `#ff6ec7` |
+| Cyan / green | `#5ffbf1` |
+| Yellow | `#f9f871` |
+| Blue | `#8b9aff` |
+| Magenta | `#f4a5ff` |
 
-These are the desktop tokens documented in [Michal's customization guide](https://github.com/Michal-Nithesh/Sakurazuki/blob/90ca56ec0afb921ea1559a80979c8657f6bae514/docs/customization.md). Blossom pink and moonlight lavender map to bright magenta and bright blue. Other terminal accents come from the terminal palette bundled in that same repository. The two darkest background shades are derived from the plum base; the border gradient matches Michal's Hyprland look and feel.
+The palette maps Archwave's [terminal colours](https://github.com/davidguttman/archwave/blob/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c/alacritty.toml) and [editor surface and text colours](https://github.com/davidguttman/archwave/blob/b3e6b814989dc5dd58b25bc4c73667b4827bcb4c/neovim.lua) into Omarchy's semantic palette. The active border uses Archwave's solid pink; the inactive border uses its muted purple. Omarchy generates its standard terminal slots and cursor from these semantic colours.
 
 ## Wallpapers
 
@@ -54,8 +54,8 @@ Both are copied unchanged from [Michal-Nithesh/Sakurazuki](https://github.com/Mi
 
 ## Credits and licence
 
-Palette and wallpapers: [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki).
+Palette: [davidguttman/archwave](https://github.com/davidguttman/archwave). Wallpapers: [Michal-Nithesh/Sakurazuki](https://github.com/Michal-Nithesh/Sakurazuki).
 
-The new theme definition and documentation are [MIT licensed](LICENSE). The source's MIT notice is retained separately in [LICENSES](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
+The new theme definition and documentation are [MIT licensed](LICENSE). The wallpaper source's MIT notice is retained separately in [LICENSES](LICENSES/Michal-Nithesh-Sakurazuki-MIT.txt).
 
 Theme format: [Omarchy theming documentation](https://github.com/omacom/omarchy/blob/quattro/docs/theming.md).
